@@ -1,0 +1,13 @@
+img {
+  max-width: 100%;
+}
+
+.issuer-logo {
+  height: 3.875rem;
+}
+
+@media (min-width: 62rem) {
+  .issuer-logo {
+    height: 5.94rem;
+  }
+}

@@ -1,0 +1,31 @@
+.card {
+  border: 1px solid #e1e8ed;
+  box-shadow: none;
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  margin: 2rem 1rem;
+  padding: 1rem;
+  background: #ffffff;
+  z-index: 1;
+  animation: fade-in 834ms 1;
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+  }
+}
+
+.card-height {
+  align-self: flex-start;
+  height: 100%;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.card-subtitle {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.11rem;
+}

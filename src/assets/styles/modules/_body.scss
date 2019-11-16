@@ -1,0 +1,29 @@
+
+html,
+body {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: $body-text-color;
+  font-family: 'Montserrat', sans-serif;
+  /* Sticky footer styles -------------------------------------------------- */
+  margin: $body-margin;
+  font-size: $default-font-size;
+  font-weight: 300;
+  background: $body-color;
+}
+
+
+@media (min-width: 62rem) {
+  body {
+    background-size: 100%;
+    background-position: center;
+  }
+}

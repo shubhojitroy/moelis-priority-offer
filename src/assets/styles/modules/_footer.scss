@@ -1,0 +1,26 @@
+.footer {
+  position: sticky;
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  padding: 1rem;
+  background: $footer-background-color;
+  color: $color-white;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  border-top: $footer-border-top;
+
+  & a {
+    font-weight: lighter;
+    font-size: 12px !important;
+    color: $footer-text-color;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    text-align: left;
+  }
+}
